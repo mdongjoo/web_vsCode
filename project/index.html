@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>라이프스타일 슈퍼앱, 오늘의집</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- header+section.name 형태  -->
+  <!-- 큰틀은 header+section.imgAd+section.info+section.contentRecommand+section.exhibitions+section.best+secion.customerService -->
+  <!-- header -->
+  <header>
+  <!-- 헤더 태그안에는 div박스 2개가 들어있고 , 각 div박스에 들어간 태그를 작성 -->
+    <div class="logo">
+      <!-- 현재 페이지에서 이미지 클릭시 메인화면 사이트로 이동하게 설정  -->
+      <!-- 오늘의 집 로고 -->
+      <a href="http://127.0.0.1:5500/project/index.html">
+        <img src="./img/mainLogo.png" width="50px" height="50px">
+      </a>
+      <!-- 메인페이지 , 로그인 페이지 , 회원가입 페이지를 꾸며보기위해 커뮤니티 쇼핑 인테리어 링트는 span으로 구현  -->
+      <span class="community">커뮤니티</span>
+      <span class="shopping">쇼핑</span>
+      <span class="interior">인테리어</span>
+    </div>
+    <div class="icons">
+      <span class = "search-bar" >
+        <!-- 부모 태그를 relative 를 하고, input 태그를 width: 100% 를 주어서 부모 공간을 꽉 차게 만든다. -->
+        <!-- 그 후 돋보기 이미지를 부모 태그 안으로 배치하기 위해서는 position: absolute; 속성을 주어야 한다 -->
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" name="q" placeholder="쇼핑 검색" >
+      </span>
+      <span>
+        <!-- 장바구니 아이콘  -->
+       <img src="./img/cart.png" alt="장바구니" width="50px" height="50px">
+      </span>
+      <span class="login">
+        <a href="login.html">로그인</a>
+      </span>
+      <span class="join">
+        <a href="join.html">회원가입</a>
+      </span>
+      <span class="customer">고객센터</span>
+      <span>
+        <button>글쓰기</button>
+      </span>
+    </div>
+  </header>
+
+  <hr>
+  <!-- section:list -->
+  <section class="list">
+    <!-- div 두개 list , 선택상자 구현 -->
+    <div class="list-button">
+      <details class="list-button-details">
+        <summary>
+          <ul><button>홈</button></ul>
+          <ul><button>추천</button></ul>
+          <ul><button>#채널</button></ul>
+          <ul><button>집들이</button></ul>
+          <ul><button>집사진</button></ul>
+          <ul><button>3D인테리어</button></ul>
+          <ul><button>살림수납</button></ul>
+          <ul><button>콜렉터블</button></ul>
+        </summary>
+        <span>
+          <ul><button>홈스토랑</button></ul>
+          <ul><button>핫플레이스</button></ul>
+          <ul><button>육아</button></ul>
+          <ul><button>플렌테리어</button></ul>
+          <ul><button>반려동물</button></ul>
+          <ul><button>캠핑</button></ul>
+          <ul><button>취미</button></ul>
+          <ul><button>이벤트</button></ul>
+        </span>
+      </details>
+    </div>
+    <div class="select-container">
+      <select id="showtimes" name="showtimes">
+       <optgroup label="최근 검색어">
+        <option value="titanic"><b>인기검색어</b></option>
+        <option value="popular1">행운출첵</option>
+  </optgroup>
+</select>
+    </div>
+  </section>
+  <hr>
+  <!-- section imgAd -->
+  <section class="imgAd"></section>
+  <!-- section info -->
+  <section class="info"></section>
+  <!-- section contentRecommand -->
+  <section class="contentRecommand"></section>
+  <section class="exhibitions"></section>
+  <section class="best"></section>
+  <section class="customerService"></section>
+   
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+.bold-text td {
+  /* 클래스가 bold-text 인 모든<td>태그를 선택해 속성을 적용시킨다 */
+  font-weight: bold;
+}

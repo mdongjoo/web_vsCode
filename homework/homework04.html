@@ -1,0 +1,97 @@
+<!-- 2024-04-22 과제 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic01</title>
+    <style>
+       *{
+      margin: 0;
+      padding: 0;
+       }
+    footer{
+      background-color: black;
+      height: 100px;
+    }
+    .footer-container{
+      color: aliceblue;
+      text-align: center;
+      align-content: center;
+    }
+    .head-container{
+      background-color: skyblue;
+      height: 50px;
+      display: flex;
+    }
+    .head-container nav{
+      height: 100%;
+      margin-right: 20px;
+      align-content: center;
+      text-align: center;
+    }
+    aside{
+      background-color: red;
+    }
+    .main-container{
+      background-color: orange;
+      height: 50px;
+      text-align: center;
+    }
+    #aside{
+      background-color: darkred;
+      align-content: center;
+      text-align: center;
+      width: 100px;
+    }
+    .aside-container{
+      background-color: grey;
+      display: flex;
+      height: 600px;
+    }
+    
+    #section1, #section2{
+       background-color: purple;
+       align-content: center; /* 수정: 수직 중앙 정렬 */
+       justify-content: center; /* 수정: 수평 중앙 정렬 */
+       height: 100px;
+       width: 300px;
+       margin: 50px;
+    }
+    .main-section-container{
+      width: 100%;
+
+    }
+    #section-container {
+      height: 100%;
+      display: flex;
+      margin: 0 auto;
+       justify-content: center; /* 수평 가운데 정렬 */
+       align-items: center; /* 수직 가운데 정렬 */
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="main-container">header</div>
+      <div class="head-container">
+        <nav>nav 메뉴1</nav>
+        <nav>nav 메뉴2</nav>
+        <nav>nav 메뉴3</nav>
+        <nav>nav 메뉴4</nav>
+      </div>
+    </header>
+    <div class="aside-container"> 
+      <aside id="aside">aside</aside>
+      <main class="main-section-container">
+        <p>main</p>
+        <div id="section-container">
+           <section id="section1" >section</section>
+           <section id="section2" >section</section>
+        </div>
+      </main>
+    </div>
+    <footer class="footer-container">footer</footer>
+  </body>
+</html>

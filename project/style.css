@@ -1,0 +1,69 @@
+:root {
+/* Color */
+--black-color:black;
+--sky-color:#58d6f7;
+--gray-light-color:#f5f5f5;
+/* Size */
+--padding: 12px;
+/* Font Size */
+}
+
+*{
+  padding : 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding:var(--padding);
+  background-color:white;
+}
+
+header .logo .community {
+ color:var(--sky-color);
+}
+/* 부모 : relative 로 설정  */
+header .icons .search-bar{
+  position: relative;
+  width: 100px;
+}
+
+.icons span{
+  width: 100%;
+}
+.list-button,
+.select-container{
+  display: inline-block;
+}
+/* 
+.list-button-details{
+  background-color: green;
+} */
+
+
+.list-button-details summary{
+  list-style-type: none;
+}
+
+.list-button-details summary ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.list-button-details span{
+  display: inline-block;
+}
+
+select{
+  display: inline-block;
+}

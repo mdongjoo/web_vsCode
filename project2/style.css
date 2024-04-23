@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* 패팅 마진을 준 부분까지 포함해서 사이즈가 결정되도록함 */
+  box-sizing: border-box;
+}
+body{
+  font-family: "Pretendard Variable", "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
+}
+/* header */
+
+.head-container{
+  /* background-color: aquamarine; */
+  height: auto;
+}
+#todayHouse{
+ background-color: lightblue;
+ display: flex;
+ position: sticky;
+ top: 0;
+ height: 100px;
+ justify-content: space-between;
+}
+#todayHouse .logo{
+  display: flex;
+}
+.logo p{
+  align-content: center;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#todayHouse .search img{
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50px;
+}
+#todayHouse .search a{
+  align-content: center;
+  margin-right: 15px;
+  /* text-align: center; */
+}
+#todayHouse .search button{
+  /* 위부터 시계방향 */
+  margin: 20px 10px 0 10px;
+  height: 50px;
+  width: 80px;
+  /* 동그랗게 만들기 */
+  border-radius: 15px;
+  background-color: lightblue;
+  border-color: none;
+  cursor:pointer;
+}
+#todayHouse .search button:hover{
+  background-color: blue;
+  transform: scale(1.2);
+}
+#community{
+  color:blue;
+}
+#todayHouse .search{
+  display: flex;
+}
+#homeList ul{
+  display: flex;
+  background-color: lightcoral;
+  justify-content: space-between;
+  height: 80px;
+  list-style-type: none;
+}
+#homeList li{
+  border: 1px solid violet;
+  font-weight: bolder;
+  align-content: center;
+}
+
+
+/* banner */
+.banner-container{
+  display: flex;
+  background-color: lightsalmon;
+  height: 500px;
+  justify-content:center;
+  padding: 20px 0  20px 0;
+}
+/* .banner-container img{
+
+} */
+/* 이미지 확대 문제 */
+.banner-img-1 {
+  width: 767px;
+  height:460px;
+  overflow: hidden;
+  /* display: flex; */
+}
+
+.banner-container img:hover{
+  transform: scale(1.02);
+  overflow: hidden;
+}
+#banner1{
+  height: 100%;
+  width: 100px;
+}
+#banner-button1, #banner-button2{
+  margin-top: 180px;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+}
+/* 리스트 */
+.tenList-container{
+  display: flex;
+  background-color: lightgreen;
+  /* height: 300px; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tenList-container div {
+   flex: 1;
+   text-align: center;
+}
+.tenList-container img{
+  height: 100px;
+  width: 100px;
+}
+.tenList-container p{
+  text-align: center;
+}
+/* 추천 */
+.recommand-container{
+  background-color: lightgoldenrodyellow;
+  /* height: 500px; */
+  width:100%;
+  overflow-x: hidden;
+}
+.recommand-info{
+  background-color: lightskyblue;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px 0;
+  height: 120px;
+  display: flex;
+}
+
+#info1{
+  padding : 10px 0;
+  font-weight: bolder;
+  font-size: 20px
+}
+#info2{
+  font-size: 15px;
+}
+#info-button{
+  align-content: center;
+}
+.recommand-picture{
+  /* height:500px; */
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+}
+.recommand-picture img{
+  /* margin-top: 70px; */
+  width: 170px;
+  height: 240px;
+  /* justify-content: space-between; */
+  text-align: center;
+}
+.recommand-picture button{
+  position: relative;
+  left: -20px;
+  height: 50px;
+}
+/* 전시 */
+.exhibition-info{
+  background-color: bisque;
+  justify-content: space-between;
+  height: auto;
+  display: flex;
+  padding:20px 0 ;
+}
+.exhibition-info p{
+  font-size: 30px;
+}

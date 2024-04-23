@@ -1,0 +1,17 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+p {
+  color:green;
+}
+
+span{
+  background-color: yellowgreen;
+}
+
+.class-test{
+  background-color: beige;
+  color:violet;
+}

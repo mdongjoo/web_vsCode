@@ -1,0 +1,11 @@
+div{
+  border: 1px solid black;
+  /* css 주석 
+    border : 블록 요소의 테두리를 설정하는 속성 
+    border : 굵기 형태 색상 ; 
+    형태 : solid (직선) , dotted(점선) , dashed(긴점선)
+  */
+  margin: 10px 10px;
+  background-color: antiquewhite;
+}
+

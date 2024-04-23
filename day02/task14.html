@@ -1,0 +1,53 @@
+<!-- flex box 02 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    #header{
+      background-color: antiquewhite;
+      height: 100px;
+    }
+    #footer{
+      background-color: darkgoldenrod;
+      height: 100px;
+    }
+    .section-container{
+      background-color: aquamarine;
+      height: 500px;
+      /* aside 와 section을 가로로 배치해야한다 */
+      display: flex;
+      justify-content: space-between;
+    }
+    .aside-left .aside-right{
+      background-color: red;
+      /* 부모의 요소의 크기의  퍼센트를 의미 */
+      height: 100%;
+      width: 200px;
+    }
+    .section{
+      background-color: bisque;
+      height: 100%;
+      width: 600px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="header"></div>
+      <div class="section-container">
+       <div class="aside-left"></div>
+       <div class="section"></div>
+       <div class="aside-right"></div>
+      </div>
+    <div id="footer"></div>
+  </div>
+</body>
+</html>

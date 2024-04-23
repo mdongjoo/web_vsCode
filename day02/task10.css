@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+  color: blue;
+}
+
+.number1{
+  background-color: aqua;
+  color: aquamarine;
+  font-size: 30px;
+}
+
+.p1{
+  color: aquamarine;
+}
+.p2{
+  background-color: black;
+}
+
+.my-list{
+  list-style-type: none;
+}
