@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  /* background-color: antiquewhite; */
+}
+.head{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+header{
+  background-color: azure;
+}
+#final-project{
+  color: lightgreen;
+  font-weight: border;
+  font-size: 30px;
+}
+#final-project-join{
+  align-content: center;
+  margin: 10px;
+ 
+}
+#final-project-join a{
+  text-decoration-line: none;
+  color: black;
+  font-weight: bolder;
+}
+.head-list ul{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  height: 40px;
+  padding:5px;
+  background-color: aquamarine;
+}
+.banner-container{
+  text-align: center;
+  background-color: aliceblue;
+}
+.banner-container img{
+  width: 400px;
+  height: 150px;
+  margin: 10px;
+}
+.banner-container button{
+  position: relative;
+  left: 90px;
+  bottom: 25px;
+  background-color: darkcyan;
+  color: white;
+  padding: 3px;
+}
+/* 베스트 배너 */
+.best-banner{
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  /* background-color: whitesmoke; */
+}
+.best-banner h2{
+  align-content: center;
+}
+.best-recommand{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: lightpink; */
+}
+.recommand-one img ,.recommand-two img{
+  width: 200px;
+  height: 100px;
+}
+
+.Best-comment{
+  align-content: center;
+}
+.Best-comment div{
+  padding-bottom: 50px;
+}
+.recommand-container{
+  align-content: center;
+}
+
+
+/* event */
+.Event-container{
+  height: 300px;
+  background-color: thistle;
+}
+
+
+/* 푸터 */
+footer{
+  height: 100px;
+  background-color: rgb(37, 137, 104);
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}

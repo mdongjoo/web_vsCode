@@ -1,0 +1,65 @@
+*{
+  padding: 0; margin: 0;
+}
+header, footer{
+  height: 80px;
+  background-color: lightgray;
+}
+/*list -------------------------*/
+.wrap-category{
+  background-color: beige;
+  height: 50px;
+}
+.box-category{
+  display: flex;
+  list-style-type: none;
+  gap: 5px;
+  padding: 10px;
+}
+.box-category ul{
+  list-style-type: none;
+}
+
+.category-4-list{
+  list-style-type: none;
+}
+
+.category-4 ul{
+  display: none;
+  position: absolute;
+  width: 80px;
+}
+.category-4:hover ul{
+  display: block;
+  background-color: wheat;
+}
+.category-5 ul{
+  display: none;
+  position: absolute;
+  width: 80px;
+}
+.category-5:hover ul{
+  display: block;
+  background-color: wheat;
+}
+
+
+.wrap-content{
+  display: flex;
+  height: 500px;
+}
+
+.asidea{
+  width: 200px;
+  background-color: pink;
+}
+.section{
+  width: 100%;
+}
+.asideb{
+  width: 200px;
+  background-color: pink;
+}
+
+
+

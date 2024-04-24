@@ -6,11 +6,13 @@
 }
 body{
   font-family: "Pretendard Variable", "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
+  /* padding-left: 200px;
+  padding-right: 200px; */
 }
 /* header */
 
 .head-container{
-  /* background-color: aquamarine; */
+  background-color: aquamarine;
   height: auto;
 }
 #todayHouse{
@@ -176,7 +178,7 @@ body{
   left: -20px;
   height: 50px;
 }
-/* 전시 */
+/* 기획전 */
 .exhibition-info{
   background-color: bisque;
   justify-content: space-between;
@@ -187,3 +189,137 @@ body{
 .exhibition-info p{
   font-size: 30px;
 }
+.exhibition-info-list{
+  background-color: lightgrey;
+  /* height: auto; */
+  align-content: center;
+}
+.exhibition-info-list ul{
+  display: flex;
+  list-style-type: none;
+  margin: 20px 0 20px 50px;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.exhibition-info-list ul li{
+  flex: 1;
+}
+.exhibition-info-list ul li img{
+  height: 200px;
+  
+}
+.exhibition-info-list ul li p{
+  font-size: 20px;
+}
+/* 베스트 */
+.best-info{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+}
+.best-info p{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.best-info img{
+  width: 50px;
+  height: 50px;
+}
+.best-list{
+  background-color: lightseagreen;
+
+}
+.best-list ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.best-list ul li{
+  background-color: yellowgreen;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.best-list-container{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.best-picture-container{
+  background-color: lightsteelblue;
+  width: 500px;
+}
+
+.best-picture-container img{
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+}
+.best-price{
+  display: flex;
+  gap: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: lightcyan;
+}
+#best-percent{
+  color: aqua;
+}
+.best-review{
+  display: flex;
+  gap: 10px;
+  background-color: antiquewhite;
+}
+.best-review img{
+  width: 30px;
+  height: 30px;
+}
+#best-review-numberfive{
+  font-size: 20px;
+  font-weight: bolder;
+  align-content: center;
+}
+#best-review-number{
+  font-size: 20px;
+  font-weight: bolder;
+  align-content: center;
+}
+#special-price{
+  /* display: flex; */
+  background-color: lightslategray;
+  width:50px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+}
+/* 푸터 */
+footer{
+  background-color: aquamarine;
+  height: auto;
+}
+.footer-one{
+  display: flex;
+  justify-content: space-between;
+}
+#footer-p1{
+  /* 고객센터> */
+  font-size: 20px;
+  font-weight: bolder;
+}
+.company-number-container{
+  display: flex;
+  gap: 10px;
+}
+#company-number{
+  /* 1670-0876 */
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+
+
+
+

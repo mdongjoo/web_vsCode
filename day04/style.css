@@ -1,0 +1,51 @@
+header , footer{
+  height: 50px;
+  background-color: aqua;
+}
+.main-list-container{
+  display: flex;
+  background-color: blanchedalmond;
+  height: 70px;
+}
+.main-list-container ul{
+  display: flex;
+
+  gap: 20px;
+  list-style-type: none;
+}
+
+.aside-container{
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  background-color: blue;
+}
+.aside-container .aside{
+  width: 100px;
+  background-color: lightsalmon;
+ 
+} 
+
+.main{
+  text-align: left;
+}
+
+
+
+
+.lii {
+  position: relative;
+}
+.list1 ul{
+  position: absolute;
+  background-color: white;
+  display: none;
+ 
+}
+.list1:hover ul{
+  display: block;
+
+}
+.listtwo{
+  position: absolute;
+}
