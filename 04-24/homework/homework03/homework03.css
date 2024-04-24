@@ -1,0 +1,60 @@
+/* 
+header > h1 , nav>ul>li
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightgray;
+}
+/* 헤더 */
+header{
+  height: 200px;
+  background-color: darkslategray;
+}
+header h1{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+header nav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+header nav ul li a{
+  text-decoration-line: none;
+  color: rgb(200, 200, 200);
+}
+header nav ul li hr{
+  margin-top: 10px;
+}
+/* main */
+/* main > h2, ul> li,span(completed) */
+main{
+  width: 500px;
+  height: 200px;
+  background-color: rgba(231, 231, 231, 0.794);
+  margin-top: 20px;
+  margin-left: 43%;
+}
+main h2{
+  text-align: center;
+  padding: 20px;
+}
+main ul li{
+  list-style-type: none;
+  margin-left: 30px;
+}
+main ul li hr{
+  width: 90%;
+  /* text-align: center; */
+}
+.completed{
+  text-decoration:line-through ;
+  color: grey;
+}

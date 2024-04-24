@@ -86,10 +86,28 @@ header{
 
 /* event */
 .Event-container{
-  height: 300px;
+  height: 100%;
   background-color: thistle;
 }
-
+.event{
+  background-color: lightcyan;
+  height: 50px;
+  justify-content: center;
+}
+.event-list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.event-list>div img{
+  width: 200px;
+  height: 200px;
+}
+.event-list>div p{
+  position: relative;
+  top: 180px;
+  color: white;
+}
 
 /* 푸터 */
 footer{
